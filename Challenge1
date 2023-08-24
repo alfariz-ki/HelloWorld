@@ -1,18 +1,15 @@
-import com.sun.deploy.security.SelectableSecurityManager;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.Buffer;
 import java.util.Scanner;
 
 public class Challenge1 {
     public static void main(String[] args) {
         Scanner MBA = new Scanner(System.in);
-        double hargaMenu, totalPesanan = 0;
+        double totalPesanan = 0;
         int pilihanCust, jumlahPesanan = 0;
-        String[] namaMenu = {"1. Es Kopi Susu", "2. Cappuccino", "3. French Fries", "4. Croissant"};
+        String[] namaMenu = {"Es Kopi Susu", "Cappuccino", "French Fries", "Croissant"};
         int [] hargaNya = {15000, 20000, 10000, 12000};
         halamanUtama();
 
