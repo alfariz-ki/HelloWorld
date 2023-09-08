@@ -91,7 +91,7 @@ public class PesanServiceIMPL implements PesanService{
         }
     }
     @Override
-    public void menuPembayarandanCetakStruk() {
+    public void menuPembayaran() {
         System.out.println("========================================");
         System.out.println("\t\t\t  Pembayaran\t\t\t");
         System.out.println("========================================");
