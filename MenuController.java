@@ -13,7 +13,7 @@ public class MenuController {
 
     public void tampilanMenu() {
         pesanService.menuMakananPemesanan();
-        pesanService.menuPembayarandanCetakStruk();
+        pesanService.menuPembayaran();
         pesanService.cetakStruk();
     }
 }
