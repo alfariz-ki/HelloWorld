@@ -1,0 +1,6 @@
+			Struk Pembayaran	
+
+No		Pesanan			Harga	  Jumlah
+
+Totalnya yaitu: 0.0
+Terima kasih sudah datang ke Stars Coffee!
